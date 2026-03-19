@@ -1,0 +1,147 @@
+You are building an AI in-car assistant for a vehicle using its owner’s manual.
+
+Your goal is to extract and transform the manual into a clean, structured, and highly practical “driver assistant brain” optimized for rental drivers who have ZERO familiarity with the car.
+
+IMPORTANT:
+- Do NOT summarize like a textbook
+- Do NOT include unnecessary technical details
+- Focus ONLY on what a real driver would need inside the car
+
+---
+
+OUTPUT STRUCTURE (FOLLOW EXACTLY)
+
+---
+
+1. 🚗 BASICS
+
+Extract:
+- Fuel type
+- Fuel door location + how to open it
+- Trunk operation
+- Tire pressure (front/rear if available)
+
+---
+
+2. ⚠️ WARNING LIGHTS (MOST IMPORTANT ONLY)
+
+Extract and simplify:
+- Tire pressure light
+- Check engine light
+- Oil light (highlight if critical)
+- Battery light
+- Temperature/overheating
+
+For each:
+- What it means (simple)
+- What the driver should do
+
+---
+
+3. 🎛️ DASHBOARD & CONTROL LAYOUT (LOCATION-BASED)
+
+This is CRITICAL.
+
+Describe:
+- Climate controls (knobs/buttons + exact positions)
+- Fan speed, temperature, airflow
+- Recirculation button (location + icon)
+- Defrost buttons
+
+- Infotainment system:
+ - Volume knob location
+ - Menu basics
+
+- Steering wheel controls (left vs right)
+
+- Headlights (which stalk, where)
+- Wipers (which stalk, where)
+- Hazard lights (exact position)
+
+Use phrases like:
+- “middle knob”
+- “bottom right button”
+- “left side of the screen”
+
+Also include:
+- “If you can’t find it…” fallback descriptions
+- What the button/icon looks like
+
+---
+
+4. 🔧 HANDS-ON ACTIONS
+
+Extract step-by-step for:
+- Opening the hood
+- Adding washer fluid
+- Checking oil (basic)
+
+Make steps VERY simple (1–6 max)
+
+---
+
+5. ⚡ SITUATION MODE
+
+Create real-world solutions for:
+
+- Cold / want heat fast
+- Windows fogging
+- Phone won’t connect
+- Car won’t start
+- Can’t open gas
+- AC not cold
+- No sound/music
+- Tire pressure light on
+- Accident
+
+Each must:
+- Be step-by-step
+- Reference control locations
+
+---
+
+6. 🎉 FUN FACTS & QUIRKS
+
+Extract or infer:
+- Unique engine type
+- Drivetrain (AWD, FWD, etc.)
+- Any special features
+- Efficiency tips
+- Small usability tricks
+
+Keep each:
+- 1–2 sentences
+- Interesting, not technical
+
+---
+
+7. 🌱 EMISSIONS / EXTRA DETAILS
+
+If applicable:
+- Include things like PZEV, hybrid system, eco modes
+- Explain in simple terms
+
+---
+
+8. 🧠 RESPONSE STYLE RULES
+
+Generate instructions for the AI:
+
+- Keep answers short (1–3 sentences)
+- Always include WHERE something is
+- Use step-by-step when needed
+- Avoid technical language
+- Speak like helping someone inside the car
+
+Include 2–3 example responses
+
+---
+
+FINAL RULES:
+
+- Optimize for clarity over completeness
+- Prioritize what a rental driver would panic-search
+- Make it feel like a built-in assistant, not a manual
+- Structure everything cleanly so it can be pasted into a chatbot knowledge base
+
+---
